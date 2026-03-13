@@ -1,0 +1,16 @@
+# Ignore compiled classes and jars
+target/
+
+# Ignore Eclipse metadata
+.project
+.classpath
+.settings/
+.factorypath
+.DS_Store
+
+# Ignore local configuration (if you name it differently)
+*.log
+.env
+taskmanager/src/main/resources/application.properties
+taskmanager/application.properties
+**/application.properties
