@@ -95,6 +95,15 @@ Update your **MySQL credentials**:
 spring.datasource.url=jdbc:mysql://localhost:3306/task_db
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+
+
+# Cloudinary Credentials
+cloudinary.cloud_name=your_cloud_name
+cloudinary.api_key=your_api_key
+cloudinary.api_secret=your_api_secret
+
+# JWT Secret
+jwt.secret=your_jwt_secret_key
 ```
 
 ---
