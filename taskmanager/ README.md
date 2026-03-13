@@ -2,7 +2,7 @@
 
 A secure and scalable **REST API based Task Management platform** designed to help users organize their workflow efficiently.
 
-This project was developed during my internship at **Amdocs**, focusing on backend development best practices, security, and layered architecture.
+This project was developed during my internship at **Amdox**, focusing on backend development best practices, security, and layered architecture.
 
 ---
 
@@ -68,14 +68,6 @@ src/main/java/com/taskmanager
 | POST   | /api/Authentication/login           | Authenticate user and generate JWT token |
 | POST   | /api/Authentication/forgot_password | Trigger password reset email             |
 
----
-
-## Task Management Module
-
-| Method | Endpoint          | Description                            |
-| ------ | ----------------- | -------------------------------------- |
-| GET    | /api/tasks        | Fetch all tasks (Requires valid token) |
-| POST   | /api/tasks/create | Create a new task                      |
 
 ---
 
